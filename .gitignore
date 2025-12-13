@@ -1,0 +1,58 @@
+# Python FastAPI Emotion Detection Project
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Загруженные пользователем файлы
+static/uploads/*
+!static/.gitkeep
+
+# Временные файлы
+*.log
+*.tmp
+*.temp
+
+# Модели (не коммитить большие файлы)
+# models/emotion_model.h5  # если модель большая
+!models/.gitkeep
+
+# Конфигурационные файлы
+.env
+.env.local
+
+# Кэш
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+Add-Content -Path .gitignore -Value "`n# Large files`n*.rar`n*.zip`n*.7z`n"
+Add-Content -Path .gitignore -Value "`n# Model files (large)`nmodels/*.h5`nmodels/*.hdf5`nmodels/*.pkl`n"
+Add-Content -Path .gitignore -Value "`n# Training images`nmodels/*.png`nmodels/*.jpg`n"
+Add-Content -Path .gitignore -Value "`n# Data files`ndata/*`n!data/.gitkeep`n"
