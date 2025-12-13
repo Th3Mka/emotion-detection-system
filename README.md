@@ -1,4 +1,4 @@
-# Модели для распознавания эмоций
+# Модель для распознавания эмоций
 
 ## Как получить модели:
 
@@ -8,8 +8,11 @@
    - `best_emotion_model.h5` - лучшая модель
 
 ### Вариант 2: Обучить модель самостоятельно
-```bash
-python train_model.py
 
 Датасет FER2013 можно скачать по ссылке:
 https://www.kaggle.com/datasets/msambare/fer2013
+
+```bash
+python train_model.py
+
+
