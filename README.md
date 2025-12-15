@@ -3,9 +3,9 @@
 ## Как получить модели:
 
 ### Вариант 1: Скачать готовые модели
-1. Скачайте модель по ссылке: https://drive.google.com/file/d/1nvuTW8XeeiccvMji4XqfSle7QShgsn_d/view?usp=sharing
+1. Скачайте модель по ссылке: [https://drive.google.com/file/d/1nvuTW8XeeiccvMji4XqfSle7QShgsn_d/view?usp=sharing](https://drive.google.com/file/d/1GUSfgs0JVWCmXUfEiw_SF50oJ-NNeYld/view?usp=sharing)
 2. Поместите файл в папку models:
-   - `best_emotion_model.h5` - лучшая модель
+   - `emotion_model.h5` -  модель
 
 ### Вариант 2: Обучить модель самостоятельно
 
