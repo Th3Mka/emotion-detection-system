@@ -5,17 +5,10 @@ bash
 git clone https://github.com/Th3Mka/emotion-detection-system.git
 cd emotion-detection-system
 
-# 2. Создайте виртуальное окружение
-python -m venv .venv
-# Windows
-.venv\Scripts\activate
-# Linux/Mac
-source .venv/bin/activate
-
-# 3. Установите зависимости
+# 2. Установите зависимости
 pip install -r requirements.txt
 
-# 4. Запустите сервер
+# 3. Запустите сервер
 python main.py
 ✅ Откройте: http://localhost:8000
 
@@ -28,7 +21,7 @@ python main.py
 Перезапустите сервер → точность 65%
 
 ✅ Вариант 2: Обучите свою модель
-Скачайте датасет: FER2013 с Kaggle
+Скачайте датасет: FER2013 с Kaggle https://www.kaggle.com/datasets/deadskull7/fer2013
 
 Запустите обучение:
 
