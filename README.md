@@ -21,8 +21,7 @@ python main.py
 Перезапустите сервер → точность 65%
 
 ✅ Вариант 2: Обучите свою модель
-Скачайте датасет: FER2013 с [Kaggle 
-]([https://drive.google.com/file/d/1GUSfgs0JVWCmXUfEiw_SF50oJ-NNeYld/view](https://www.kaggle.com/datasets/deadskull7/fer2013))
+Скачайте датасет: FER2013 с [Kaggle](https://www.kaggle.com/datasets/deadskull7/fer2013)
 
 Запустите обучение:
 
